@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Helvetica,Arial,sans-serif;
+
+}
+
+.nav{
+    height: 135px;
+    width: 100%;
+    background-color: rgb(156, 19, 19);
+}
+
+.top{
+    height: 40px;
+    width: inherit;
+    background-color: white;
+    display: flex;
+    justify-content:right;
+    align-items: center;
+}
+
+.logo{
+    height: 40px;
+    width: 90px;
+    background-image: url('/images/BBC-logo.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+
+.sign{
+    height: inherit;
+    /* padding: auto; */
+    padding-top: 15px;
+    width: 150px;
+    padding-left: 10px;
+    /* align-content: center; */
+    font-weight:bold;
+    font-size: small;
+    border-left:0.3px solid gray ;
+    border-right:0.3px solid gray ;
+
+}
+
+.signs{
+    height: inherit;
+    /* padding: auto; */
+    padding-top: 15px;
+    width: 150px;
+    padding-left: 20px;
+    /* align-content: center; */
+    font-weight:bold;
+    font-size: small;
+    /* border-left:0.3px solid gray ; */
+    border-right:0.3px solid gray ;
+}
+
+.same{
+    height: inherit;
+    padding-top: 15px;
+    padding-left: 10px;
+    font-weight: bold;
+    font-size: small;
+    /* border-left:0.3px solid gray ; */
+    border-right:0.3px solid gray ;
+    width: 80px;
+}
+
+.search{
+    display: flex;
+    height: inherit;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    font-weight: bold;
+    font-size: small;
+    width: 80px;
+}
+
+.search > i{
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+    background-color: rgb(194, 194, 194);
+    
+}
+
+#inp{
+    background-color: rgb(194, 194, 194);
+    padding-left: 10px;
+    /* border: 1px solid black; */
+    border: none;
+    border-bottom: 3px;
+    color: black;
+    outline: none;
+
+}
+
+.mid{
+    color: white;
+    margin-left: 20px;
+    margin-top: 10px;
+    /* margin-bottom: -10px; */
+    font-stretch: expanded;
+    font-weight: 400;
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+    color: white;
+    width: auto;
+    padding: 10px;
+    /* background-color: aquamarine; */
+}
+
+.daru_same{
+    height: inherit;
+    width: auto;
+    padding: 5px;
+}
+
+.daru_same:hover {
+    border-bottom: 4px solid white;
+}
+
+#daru_same{
+    height: inherit;
+    width: auto;
+    padding: 5px;
+}
+
+#daru_same:hover {
+    /* border-bottom: 4px solid white; */
+    background-color: black;
+}
+
+
+.adv_holder{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.adv_holder > div{
+    height: inherit;
+    width: 70%;
+    /* padding:20px; */
+    background-image: url('./images/adv.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+
+.news_section{
+    /* background-color: aqua; */
+    height: 290px;
+    display: flex;
+    align-items: center;
+}
+
+.one{
+    height: inherit;
+    width: 250px;
+    margin-left: 15px;
+    /* background-color: pink; */
+    padding: 10px;
+}
+.one > p{
+    color: gray;
+    font-size: small;
+}
+
+#lnk{
+    color: gray;
+    text-decoration: none;
+}
+
+#lnk:hover{
+    color: rgb(64, 173, 224);
+}
+
+
+#lnkDiff{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+#lnkDiff:hover{
+    color: rgb(64, 173, 224);
+}
+
+.two{
+    height: inherit;
+    width: 550px;
+    /* background-color: aqua; */
+}
+
+.gundaboi{
+    height: 220px;
+    width: inherit;
+    /* background-color: red; */
+    background-image: url('./images/gundaGhiImage.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tali{
+    height: 120px;
+    /* background-color: aqua; */
+    background-image: url('./images/taliban.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+.chungku{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
